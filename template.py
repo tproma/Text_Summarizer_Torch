@@ -29,4 +29,10 @@ list_of_files = [
 
 ]
 
+for filepath in list_of_files:
+    filepath = path(filepath)
+    filedir, filename = os.path..split(filepath)
+    
+    
+
 
