@@ -10,3 +10,11 @@ tqdm
 PyYAML
 matplotlib
 torch
+
+boto3
+
+fastapi
+uvicorn
+jinja
+
+
