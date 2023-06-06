@@ -17,4 +17,11 @@ setuptools.setup(
     version = __version__,
     author = AUTHOR_USER_NAME,
     author_email = AUTHOR_EMAIL,
+    deescription = "Pyhton package for NLP app",
+    long_description = long_description,
+    long_description_content = "text/markdown",
+    
+  
+    package_dir = {"": "src"},
+  
 )
