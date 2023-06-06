@@ -10,3 +10,11 @@ REPO_NAME = "Text_Summarizer"
 AUTHOR_USER_NAME = "Proma"
 SRC_REPO = "textSummarizer"
 AUTHOR_EMAIL = "tanjinaproma@gmail.com"
+
+
+setuptools.setup(
+    name = SRC_REPO,
+    version = __version__,
+    author = AUTHOR_USER_NAME,
+    author_email = AUTHOR_EMAIL,
+)
