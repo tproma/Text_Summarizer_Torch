@@ -1,2 +1,2 @@
 from textSummarizer.logging import logger
-logger.info(welcomw)
+logger.info(welcome)
