@@ -1,4 +1,4 @@
-### Text Summarize using Torch
+### Text Summarize using Torch with deployment
 
 ## Workflows
 - update config.yaml
@@ -9,3 +9,4 @@
 - update the pipelines
 - update main.py
 - update app.py
+- 
