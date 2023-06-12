@@ -1,9 +1,9 @@
 transformers
 transformers[sentencepiece]
 datasets
-sacreblue
+sacrebleu
 rouge-score
-py7zrr
+py7zr
 pandas
 nltk
 tqdm
