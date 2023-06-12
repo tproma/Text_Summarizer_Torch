@@ -20,12 +20,12 @@ setuptools.setup(
     deescription = "Pyhton package for NLP app",
     long_description = long_description,
     long_description_content = "text/markdown",
-    url=f"https://github.com/tproma/Text_Summarizer_Torch.git"
+    url=f"https://github.com/tproma/Text_Summarizer_Torch.git",
     project_urls = {
       "Bug Tracker" : f"https://github.com/tproma/Text_Summarizer_Torch.git/issues",
     },
   
     package_dir = {"": "src"},
-    packages = setuptools.find_packeages(where = "src")
+    packages = setuptools.find_packages(where = "src")
   
 )
