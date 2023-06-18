@@ -1,6 +1,6 @@
 from textSummarizer.constants import *
 from textSummarizer.utils.common import read_yaml
-#from textSummarizer.entity import
+from textSummarizer.entity import DataIngestionConfig
 
 
 
