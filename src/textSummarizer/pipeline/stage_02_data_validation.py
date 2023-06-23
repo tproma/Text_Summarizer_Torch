@@ -1,6 +1,6 @@
 
 from textSummarizer.config.configuration import ConfigurationManager
-from textSummarizer.components.data_ingestion import DataIngestion
+from textSummarizer.components.data_validation import DataValidation
 from textSummarizer.logging import logger
 
 class DataValidationTrainingPipeline:
@@ -10,6 +10,6 @@ class DataValidationTrainingPipeline:
   def main(self):
     config = ConfigurationManager()
     data_validation_config = config.get_data_validation_config()
-    data_validation = DataIngestion(config = data_validation_config)
-    data_validation.download_file()
-    data_validation.extract_zip_file()
+    data_validation = DataValidation(config = data_validation_config)
+    data_validation.validate_all_files_exist()
+    
