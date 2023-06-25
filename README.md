@@ -26,4 +26,3 @@ conda activate textSum
 ```
 pip install -r requirements.txt
 ```
-
