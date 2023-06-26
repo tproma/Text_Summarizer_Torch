@@ -15,7 +15,7 @@ except Exception as e:
   raise e
 
 
-
+"""
 STAGE_NAME = "Data validation stage"
 try:
   logger.info(f" >>>>>>> stage  {STAGE_NAME} started <<<<<<<<")
@@ -27,3 +27,4 @@ except Exception as e:
   raise e
 
 
+"""
